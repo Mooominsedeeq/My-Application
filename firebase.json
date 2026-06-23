@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "islamic-pdf-app-a6d2e",
+          "appId": "1:701578934655:android:881f96832c8a0a5ad7824a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "islamic-pdf-app-a6d2e",
+          "configurations": {
+            "android": "1:701578934655:android:881f96832c8a0a5ad7824a",
+            "macos": "1:701578934655:ios:138a735482a9f3fad7824a",
+            "web": "1:701578934655:web:a485ebf607d6243dd7824a",
+            "windows": "1:701578934655:web:6f284995ae7145a9d7824a"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
